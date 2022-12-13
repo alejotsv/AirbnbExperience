@@ -30,3 +30,9 @@
   top: 50px;
   left: 50px;
   right: 50px;
+}
+
+.hero-banner > img {
+  width: 800px;
+  height: auto;
+}
