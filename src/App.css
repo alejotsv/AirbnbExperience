@@ -124,3 +124,25 @@
   color: #918E9B;
 }
 
+.card-description > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+
+.card-price > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #222222;
+
+}
