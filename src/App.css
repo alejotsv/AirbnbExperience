@@ -88,7 +88,39 @@
   width: 176px;
   height: 235px;
   left: 37px;
-  top: 521px;
-  
+  top: 521px;  
   border-radius: 9px;
 }
+
+.rating {
+  
+}
+
+.rating > h4 {
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+  color: #222222;
+}
+
+.rating > h4 > img {
+  width: 14px;
+  height: 14px;
+  border-radius: 0.5px;
+}
+
+.rating > h4 > em {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #918E9B;
+}
+
