@@ -9,6 +9,12 @@ const Card = () => {
       <div className='rating'>
         <h4><img src={star} alt='star' /> 5.0 <em>(6) • USA</em></h4>        
       </div>
+      <div className='card-description'>
+        <p>Life lessons with Katie Zaferes</p>
+      </div>
+      <div className ='card-price'>
+        <p><strong>From $136</strong> / person</p>
+      </div>
     </div>
   );
 }
