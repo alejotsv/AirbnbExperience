@@ -81,6 +81,14 @@
 .card {  
   height: 300px;
   width: 176px;
-  margin: 20px 20px 20px 20px;
-  background-color:blue;
+  margin: 20px 20px 20px 20px;  
+}
+
+.card > img {  
+  width: 176px;
+  height: 235px;
+  left: 37px;
+  top: 521px;
+  
+  border-radius: 9px;
 }

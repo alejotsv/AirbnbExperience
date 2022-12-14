@@ -1,9 +1,10 @@
 import React from 'react';
+import Image12 from '../assets/image12.png';
 
 const Card = () => {
   return(
     <div className='card'>
-      <h3>This is my card</h3>
+      <img src={Image12} alt='swimmer image' />
     </div>
   );
 }
