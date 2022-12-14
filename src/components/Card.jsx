@@ -7,13 +7,13 @@ const Card = (props) => {
     <div className='card'>
       <img src={props.img} alt='swimmer image' />
       <div className='rating'>
-        <h4><img src={star} alt='star' /> 5.0 <em>(6) • USA</em></h4>        
+        <h4><img src={star} alt='star' /> {props.rating} <em>({props.votes}) • USA</em></h4>        
       </div>
       <div className='card-description'>
-        <p>Life lessons with Katie Zaferes</p>
+        <p>{props.description}</p>
       </div>
       <div className ='card-price'>
-        <p><strong>From $136</strong> / person</p>
+        <p><strong>From ${props.price}</strong> / person</p>
       </div>
     </div>
   );
