@@ -1,19 +1,25 @@
 import React from 'react';
+import { useState } from 'react';
 import star from '../assets/star.png';
 
 const Card = (props) => {
+  const [img, setImg] = useState(props.img);
+  const [rating, setRating] = useState(props.rating);
+  const [votes, setVotes] = useState(props.votes);
+  const [description, setDescription] = useState(props.description);
+  const [price, setPrice] = useState(props.price);
   
   return(
     <div className='card'>
-      <img src={props.img} alt='swimmer image' />
+      <img src={img} alt='swimmer image' />
       <div className='rating'>
-        <h4><img src={star} alt='star' /> {props.rating} <em>({props.votes}) • USA</em></h4>        
+        <h4><img src={star} alt='star' /> {rating} <em>({votes}) • USA</em></h4>        
       </div>
       <div className='card-description'>
-        <p>{props.description}</p>
+        <p>{description}</p>
       </div>
       <div className ='card-price'>
-        <p><strong>From ${props.price}</strong> / person</p>
+        <p><strong>From ${price}</strong> / person</p>
       </div>
     </div>
   );
