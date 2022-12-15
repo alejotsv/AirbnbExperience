@@ -11,7 +11,7 @@ const Card = (props) => {
   
   return(
     <div className='card'>
-      <img src={img} alt={img} />
+      <img src={img} alt='experience image' />
       <div className='rating'>
         <h4><img src={star} alt='star' /> {rating} <em>({votes}) • USA</em></h4>        
       </div>

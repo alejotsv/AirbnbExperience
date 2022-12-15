@@ -1,20 +1,20 @@
 import React from 'react';
 import Card from './Card';
 import star from '../assets/star.png';
-import swimmer from '../assets/image12.png';
-import bike from '../assets/mountain_bike.png';
-import wedding from '../assets/wedding_photography.png';
-import card_info from '../assets/cards-info.js';
+import cardsInfo from '../assets/cardsInfo';
 
 const Cards = () => {
-  const info = card_info.map( card => {
+  const info = cardsInfo.map( card => {
     return(
       <Card 
-
+        img={`src/assets/${card.img}.png`}
+        rating={card.rating}
+        vote={card.vote}
+        description={card.description}
+        price={card.price}
       />
     )
-  } )
-  console.log(info);
+  } )  
 
   return(
     <div className='cards'>
