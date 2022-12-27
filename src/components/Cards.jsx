@@ -7,6 +7,7 @@ const Cards = () => {
   const info = cardsInfo.map( card => {
     return(
       <Card 
+        key={card.id}
         img={`src/assets/${card.img}.png`}
         rating={card.rating}
         vote={card.vote}
