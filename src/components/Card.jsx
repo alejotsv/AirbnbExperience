@@ -3,11 +3,12 @@ import { useState } from 'react';
 import star from '../assets/star.png';
 
 const Card = (props) => {
-  const [img, setImg] = useState(props.info.img);
-  const [rating, setRating] = useState(props.info.rating);
-  const [votes, setVotes] = useState(props.info.votes);
-  const [description, setDescription] = useState(props.info.description);
-  const [price, setPrice] = useState(props.info.price);  
+  console.log(props)
+  const [img, setImg] = useState(props.img);
+  const [rating, setRating] = useState(props.rating);
+  const [votes, setVotes] = useState(props.votes);
+  const [description, setDescription] = useState(props.description);
+  const [price, setPrice] = useState(props.price);  
   
   return(
     <div className='card'>

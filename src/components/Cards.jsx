@@ -8,12 +8,7 @@ const Cards = () => {
     return(
       <Card 
         key={card.id}
-        info={card}
-        // img={`src/assets/${card.img}.png`}
-        // rating={card.rating}
-        // vote={card.vote}
-        // description={card.description}
-        // price={card.price}
+        {...card}
       />
     )
   } )  
